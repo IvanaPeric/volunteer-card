@@ -16,6 +16,16 @@ const ProjectDetails: React.FC = () => (
       <li>Details page for each opportunity</li>
       <li>Mobile-first design and accessibility best practices</li>
     </ul>
+    <h2 className="text-xl font-semibold text-sobGreen mb-2">Future Improvements</h2>
+    <ul className="mb-4 list-disc list-inside text-sobGreen">
+      <li>Interactive map showing locations of organizations</li>
+      <li>Register/login functionality for users</li>
+      <li>API/database integration for volunteer activities</li>
+      <li>Expanded filtering and sorting options</li>
+      <li>More animations and micro-interactions</li>
+      <li>Improved accessibility and additional tests</li>
+      <li>Richer details page content</li>
+    </ul>
     <h2 className="text-xl font-semibold text-sobGreen mb-2">How to Use</h2>
     <ol className="mb-4 list-decimal list-inside text-sobGreen">
       <li>Clone the repository and install dependencies with <code>npm install</code></li>
@@ -32,6 +42,17 @@ const ProjectDetails: React.FC = () => (
     </ul>
     <h2 className="text-xl font-semibold text-sobGreen mb-2">Author</h2>
     <p className="mb-2 text-sobGreen">Created by Ivana Peric. For questions or feedback, please reach out via GitHub.</p>
+    <h2 className="text-xl font-semibold text-sobGreen mb-2">Repository</h2>
+    <p className="mb-2 text-sobGreen">
+      <a
+        href="https://github.com/IvanaPeric/volunteer-card"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline text-sobGreen hover:text-sobGreen/80"
+      >
+        View the project on GitHub
+      </a>
+    </p>
   </div>
 );
 
