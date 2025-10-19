@@ -33,7 +33,7 @@ const VolunteerCardList: React.FC<VolunteerCardListProps> = ({ showSaved = false
 
   useEffect(() => {
     setLoading(true);
-    fetch('/src/data/volunteers.json')
+    fetch('/data/volunteers.json')
       .then((res) => res.json())
       .then((data) => {
         setVolunteers(data.map((v: Volunteer) => ({ ...v, saved: false })));

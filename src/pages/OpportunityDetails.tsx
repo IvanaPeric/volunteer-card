@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Volunteer } from '../types/Volunteer';
-import volunteers from '../data/volunteers.json';
+import volunteers from '../../public/data/volunteers.json';
 import { BackpackIcon, BadgeIcon, CalendarIcon } from '@radix-ui/react-icons';
 import DashboardHeader from '../components/DashboardHeader';
 
