@@ -2,7 +2,7 @@ import React from 'react';
 
 const DashboardHeader: React.FC = () => (
   <header className="w-full px-6 py-4 flex flex-row items-center justify-between bg-yellow-300 dark:bg-gray-900 shadow mb-8 rounded-b-xl">
-    <div className="w-32 max-w-full h-8 flex flex-col justify-center py-1 overflow-hidden">
+  <div className="w-32 max-w-full h-10 flex items-center justify-center pt-2 overflow-hidden">
       <svg
         focusable="false"
         aria-hidden="true"
