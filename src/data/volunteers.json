@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "ngo": "Green Earth Initiative",
+    "location": "Kenya",
+    "field": "Environment",
+    "description": "Join us in reforesting Kenya and educating local communities about sustainable practices.",
+    "applyUrl": "#",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 2,
+    "ngo": "Animal Care Trust",
+    "location": "Brazil",
+    "field": "Animal Welfare",
+    "description": "Help rescue and rehabilitate street animals in Rio de Janeiro. Make a real impact!",
+    "applyUrl": "#",
+    "imageUrl": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 3,
+    "ngo": "EduBridge Foundation",
+    "location": "India",
+    "field": "Education",
+    "description": "Support underprivileged children by volunteering as a tutor and mentor in rural India.",
+    "applyUrl": "#",
+    "imageUrl": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80"
+  }
+]

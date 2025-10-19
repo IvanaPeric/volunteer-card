@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Montserrat', Helvetica Neue, Arial, sans-serif;
+}
+
+@layer utilities {
+	.animate-fadeIn {
+		animation: fadeIn 0.3s ease;
+	}
+	.animate-slideUp {
+		animation: slideUp 0.3s cubic-bezier(.4,0,.2,1);
+	}
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@keyframes slideUp {
+	from { transform: translateY(40px); opacity: 0; }
+	to { transform: translateY(0); opacity: 1; }
+}
