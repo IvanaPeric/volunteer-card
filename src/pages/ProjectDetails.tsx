@@ -33,13 +33,28 @@ const ProjectDetails: React.FC = () => (
       <li>Browse opportunities, use filters, and view details</li>
       <li>Switch between Home and Saved tabs to manage your favorites</li>
     </ol>
-    <h2 className="text-xl font-semibold text-sobGreen mb-2">Tech Stack</h2>
+    <h2 className="text-xl font-semibold text-sobGreen mb-2">Tech Stack & Testing</h2>
     <ul className="mb-4 list-disc list-inside text-sobGreen">
       <li>React & TypeScript</li>
       <li>Tailwind CSS</li>
       <li>Radix UI & shadcn/ui for icons and components</li>
       <li>Vite for fast development</li>
+      <li>Automated tests with Vitest & React Testing Library</li>
     </ul>
+    <h2 className="text-xl font-semibold text-sobGreen mb-2">Automated Testing</h2>
+    <p className="mb-2 text-sobGreen">
+      Explanation: Automated tests are used to ensure that the most important parts of the user interface work as expected and remain reliable as the codebase evolves. They help catch bugs early, verify that components render and behave correctly, and make it safe to refactor or add new features.
+    </p>
+    <p className="mb-4 text-sobGreen">
+      The project includes automated tests for key React components using <b>Vitest</b> and <b>React Testing Library</b>. Tests cover rendering, interactivity, and accessibility for components like the header and volunteer cards.<br />
+      <b>To run tests:</b>
+      <ul className="list-disc list-inside mt-2">
+        <li>Install dependencies: <code>npm install</code></li>
+        <li>Run all tests: <code>npx vitest run</code></li>
+        <li>Or use watch mode: <code>npx vitest</code></li>
+      </ul>
+      Test files are located alongside their components (e.g., <code>VolunteerCard.test.tsx</code>).
+    </p>
     <h2 className="text-xl font-semibold text-sobGreen mb-2">Author</h2>
     <p className="mb-2 text-sobGreen">Created by Ivana Peric. For questions or feedback, please reach out via GitHub.</p>
     <h2 className="text-xl font-semibold text-sobGreen mb-2">Repository</h2>

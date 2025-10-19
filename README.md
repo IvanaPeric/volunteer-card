@@ -20,6 +20,25 @@ I built this project using React, TypeScript, and Vite for a fast, modern develo
 - Added a details page for each opportunity as a bonus feature
 - Focused on responsive design
 
+## Automated Testing
+This project includes automated tests for key React components using [Vitest](https://vitest.dev/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Tests cover rendering, interactivity, and accessibility for components like the header and volunteer cards.
+
+### How to Run Tests
+1. Make sure dependencies are installed:
+   ```bash
+   npm install
+   ```
+2. Run all tests:
+   ```bash
+   npx vitest run
+   ```
+3. For watch mode (auto re-run on file changes):
+   ```bash
+   npx vitest
+   ```
+
+Test files are located alongside their components (e.g., `src/components/VolunteerCard.test.tsx`).
+
 ## Setup Instructions
 1. Clone the repository:
    ```bash
